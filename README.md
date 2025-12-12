@@ -33,7 +33,7 @@ Get your API key at [keelcode.dev/account](https://keelcode.dev/account)
 - Self-healing: automatically fixes failing tests through iteration
 - Library-specific strategies (FastAPI, Pydantic, SQLAlchemy, pandas, etc.)
 - Ruff formatting built-in
-- Works with Poetry or pip
+- Works with Poetry, UV or pip
 
 ## How it works
 
@@ -60,6 +60,16 @@ Found a bug or have a feature request? [Open an issue](https://github.com/Keelco
 
 MIT - see extension/LICENSE
 
+## Changelog
+
+### 0.2.1
+- Added support for UV
+- Added "planner" agent
+- Added "Fixtures Generator" agent
+- Bug fixes
+
+### 0.1.0
+- Initial release
 ---
 
 Made by [KeelCode](https://keelcode.dev)
