@@ -4,7 +4,7 @@
 
 KeelTest is a VS Code extension that generates comprehensive `pytest` suites by verifying code execution in real-time. Unlike standard LLM assistants, it does not guess; it creates a plan, generates valid python code, executes it in a local sandbox, and iteratively fixes failures before presenting the final output.
 
-[Website](https://keelcode.dev) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=KeelCode.keeltest) | [Docs](https://keelcode.dev/keeltest)
+[Website](https://keelcode.dev/keeltest) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=KeelCode.keeltest) | [Docs](https://keelcode.dev/keeltest)
 
 ## The Difference: Verification
 
