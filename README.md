@@ -4,7 +4,11 @@
 
 KeelTest is a VS Code extension that generates comprehensive `pytest` suites by verifying code execution in real-time. Unlike standard LLM assistants, it does not guess; it creates a plan, generates valid python code, executes it in a local sandbox, and iteratively fixes failures before presenting the final output.
 
-[Website](https://keelcode.dev/keeltest) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=KeelCode.keeltest) | [Docs](https://keelcode.dev/keeltest)
+<br/>
+<img src="resources/full_demo.gif" alt="KeelTest Demo" width="100%" />
+<br/>
+
+[Website](https://keelcode.dev/keeltest) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=KeelCode.keeltest) | [Docs](https://keelcode.dev/keeltest) | [Watch Demo](https://keelcode.dev/keeltest#demo)
 
 ## The Difference: Verification
 
@@ -13,6 +17,8 @@ Most AI tools treat test generation as a text completion task. KeelTest treats i
 *   **Semantic Planning:** Analyzes your project structure and dependencies to build a test specification before writing code.
 *   **The Triage Loop:** Executes generated tests in your local environment immediately.
 *   **Auto-Correction:** If a test fails, the agent analyzes the traceback, distinguishes between hallucinations and source bugs, and attempts to fix the test code automatically.
+
+For a deep dive into our architecture, read [How KeelTest Works](https://keelcode.dev/blog/introducing-keeltest).
 
 ## Requirements
 
@@ -26,6 +32,8 @@ Most AI tools treat test generation as a text completion task. KeelTest treats i
 
 1.  **Install** the extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=KeelCode.keeltest).
 2.  **Authenticate** with your API key from [keelcode.dev/account](https://keelcode.dev/account).
+    <br/>
+    <img src="resources/api_config.gif" alt="API Key Configuration" width="600"/>
 3.  **Right-click** any Python file and select **KeelTest: Generate Tests**.
 
 ## Supported Environments
